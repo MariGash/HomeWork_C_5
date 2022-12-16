@@ -8,7 +8,7 @@ void FillArray (int [] array)
     Random rnd = new Random();
     for(int i = 0; i < array.Length; i++)
     {
-        array [i] = rnd.Next(99, 1000);
+        array [i] = rnd.Next(100, 1000);
     }
 }
 
