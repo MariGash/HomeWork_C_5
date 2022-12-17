@@ -37,25 +37,3 @@ while(i < 4)
 }
 Console.WriteLine();
 Console.WriteLine(count);
-
-
-/*
-int i = 0;
-int sum = 0;
-
-while(i < 4)
-{
-    int N = new Random().Next(100, 999);
-    if(0 == N % 2)
-    {
-        array [i] = N;
-        i = i + 1; 
-        sum = sum + N;
-    }
-}
-for(i=0; i < 10; i++)
-{
-    Console.Write(array[i] + " ");
-}
-Console.Write(sum);
-*/
